@@ -1,4 +1,14 @@
-@startuml Redémarrer Jeu
+@startuml
 skinparam style strictuml
-A -> B : UwU
+title RDCU pour redémarrerJeu
+participant ":JeuDeDes" as JDD
+participant "joueurs:\nMap<String, Joueur>" as JM
+-> JDD : redemarrerJeu()
+note right of JDD
+selon Contrôleur
+(JeuDeDés est
+l'objet racine)
+end note
+JDD -> JM : clear()
+note right of JM : selon Expert
 @enduml
