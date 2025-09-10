@@ -1,1 +1,4 @@
-// Vous devez complétéer ce fichier
+@startuml Redémarrer Jeu
+skinparam style strictuml
+A -> B : UwU
+@enduml
