@@ -48,4 +48,9 @@ window.addEventListener("load", function()
             alert("Spécifier un nom, SVP.");
         }
     });
+
+    document.getElementById("redemarrer").addEventListener("click", () => {
+        fetch("/api/v1/jeu/redemarrerJeu")
+        .then(location.reload());
+    });
 });
