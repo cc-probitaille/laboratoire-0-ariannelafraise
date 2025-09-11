@@ -215,4 +215,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ![Diagramme de séquence, terminerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-terminerJeu.puml)
 
+### Diagramme de classes logicielles
+![App](https://www.plantuml.com/plantuml/svg/pLHDRzim3BtdLn0zfKXSf4DtSOEWmTmE2xQiJNz0eLXSeC6MN5BA4WJvxuE_L2iDCcoNvM9OZzGZnKVoZgqWw_AibsQ26HA4NGy087fPYmmTnQ1TlaIgmC6I13DI_pA6jL6o1WySzpsnP4iYjL1pIlmXN6O1DnQrPBWdCjI46UnQvpsaHcA7fRxyHQz5fkIZ896ZHQeljrJJvd90MVFSZ4QUP6OSEl8lqoQFWIqflMgHvLUXKoGEdjl1FukLnj0wU4SZc8NIYkOcxtUCbu7N83iIgGMFXQbDOSbNfTy1Piti-Vkyn7RGYNuB1m4z40QxXRslrzpO1-Eq_8jYt_ZBqunGoEtzHh7bVvCBNO89iXViPwKVn_1D5EFwMSD6r4dZ8gzZIB0zVF27WSHS427Dq9qGfOn09-mMALVwJoo4tMY1Eft9wOhhNzRGT4gmCCxYMzDITOoXXXimDTgIASTlXYxsXMiBUy9uX2ue5U5h30jyTSXsN4qV9ogrocX1so48tNwU7DBskSh-wb4GetpY8ImmDIIzLa9l9vCXKDbk2-J2QCPnTVsueyQDZM6E6_lWT1KrA6QjrZcd6BrWsUEVZCIFer6_EiHrDlypxN1XT7hwhEKEn-giKrLQMJ_uVYCMHRliS5CGCa-B8eRc_sfQ59bAHSbLzqwkfCpmbo0CTaXKpIntwFsYZA89N5nVD3lnFPvWxssZUETs8ToXbYxFVWC0 "App")
+
 [README.md](../README.md)
