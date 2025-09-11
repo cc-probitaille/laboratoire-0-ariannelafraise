@@ -174,7 +174,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ### Modèle du domaine
 
-![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/mdd.puml)
+![MDD](https://www.plantuml.com/plantuml/svg/NOxTIiD048NlzoaEyS8VY52zouLK6X2A1K5VO9eTahNx4tPsBKLy7_CSUJ59ABLwEUVxvimi9L5CsLbiwbh9plYU8Zb8EbY6f6YQYPwHnnZ3_gqppSwp2Ex-erMm8UAYZNHGdT4CTdqwmB7RSXILJBACJT3ZjsNe31qS6S-u8arz6eSfMtE6PkXna6bSTRTOJC4pHKV-MZMMHB0EcNF4fm9ySAZmcgBnxJHkNoWcmu8AngVpv8bQFmudydNigiTXBleWEtN-XMlEDTVZ8EeI918QGya4B-huGN5JeDHXxqiKY-9NHuNta1aF9t5He8ocxLA9uhwOhrQmv9jPEktDNkxF9UCRcnCUr9Azpix-0000 "MDD")
 
 ### Diagramme de séquence système (DSS)
 
@@ -200,12 +200,13 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 - d1.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - d2.valeur est devenue un nombre entier aléatoire entre 1 et 6
+- d3.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - j.nbLancers a été incrémenté sur une base de correspondance avec nom
-- j.nbLancersGagnés a été incrémenté si la totale de d1.valeur et d2.valeur est égale à 7
+- j.nbLancersGagnés a été incrémenté si la totale de d1.valeur, d2.valeur, d3.valeur est plus petite ou égale à 10
 
 **RDCU**
 
-![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-jouer.puml)
+![rdcu-jouer](https://www.plantuml.com/plantuml/svg/bP7DIiD058NtUOg3gueMJBCBjWYDY88Y_gtSJ9FRcfZS6UxS57qlty0NaqcrsA3LBcOpvvpld4bEl1hHjgaZ_rooCs8QU7sj2Lwbp7jAGNFJrZgth6mQmWD9OTX4McfDkCcczt2s5LIs9OcS4ItpqXbMxAKNr6QKaT-3ySWtnU1lnQUFV6dSyQrAoOl3Y-voqlchPZDGn6b6dLB4FMMqLaOz9LahIQy-NNMjggBX94UwUiE0RRCViLM2b8idHGfFjMLCBQkylzNKIfGF9rKJ4XWZVo89vzVWdHZsSoiD2Sup4CFEAb8VA4MC53CntfCCVaoVlZWINNkNCSPOccx5TlTe1tBmBaV_9ISxa8DtcVoJN255oVdLx3hyA_9RwTPf-1e7OVX1w3WU8pwAW1z0PsR1rF60tud41QnRBt4OWxy8VmzVVBT_5cv9dH0NRLD_0000 "rdcu-jouer")
 
 #### Opération: `terminerJeu(nom:String)`
 

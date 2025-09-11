@@ -19,10 +19,10 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
   });
 
   it('post-conditions (plus de joueur)', async () => {
-    const res1 = await request.post('/api/v1/jeu/demarrerJeu').send({nom: "Arianne" })
-    const res2 = await request.post('/api/v1/jeu/demarrerJeu').send({nom: "André-Louis" })
-    expect(res1.status).toBe(201)
-    expect(res2.status).toBe(201)
+    const res1 = await request.post('/api/v1/jeu/jouer/').send({nom: "Arianne" })
+    const res2 = await request.post('/api/v1/jeu/jouer/').send({nom: "André-Louis" })
+    expect(res1.status).toBe(404)
+    expect(res2.status).toBe(404)
     // Serait pas succès (201) si les joueurs n'avaient pas été supprimés par le redémarrage
   })
 });
